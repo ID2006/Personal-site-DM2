@@ -1,3 +1,28 @@
 body {
-    background-color: aquamarine;
+    background-color: #84C8CC;
+    margin: 0px;
+}
+#sidemenu {
+    display: flex;
+    align-self: flex-start;
+    position: fixed;
+    align-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 300px;
+    background-color: white;
+    box-shadow: 4px 0px 10px black;
+}
+#samlogo {
+    max-height: 165px;
+}
+li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#pagehead {
+    height: 340px;
+    width: 100%;
+    background-color: blueviolet;
 }
