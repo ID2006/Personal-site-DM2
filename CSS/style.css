@@ -25,7 +25,31 @@ li {
     height: 340px;
     width: 100%;
     background-color: blueviolet;
+    position: relative;
+    left: 300px;
 }
 .arrows {
     max-width: 40px;
+}
+h1 {
+    margin: 0px;
+    font-family: "PT sans", sans-serif;
+    font-size: 72px;
+}
+#content {
+    position: relative;
+    left: 300px;
+}
+p {
+    font-family: "PT sans caption";
+    font-size: 18px;
+    word-wrap: normal;
+}
+#textimg1 {
+    max-width: 350px;
+}
+#sec1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
 }
