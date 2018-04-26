@@ -1,6 +1,7 @@
 body {
     background-color: #84C8CC;
     margin: 0px;
+    overflow-x: hidden;
 }
 #sidemenu {
     display: flex;
@@ -39,11 +40,13 @@ h1 {
 #content {
     position: relative;
     left: 300px;
+    margin-left: 10px;
 }
 p {
     font-family: "PT sans caption";
     font-size: 18px;
-    word-wrap: normal;
+    width: 80%;
+    height: auto;
 }
 #textimg1 {
     max-width: 350px;
@@ -52,4 +55,10 @@ p {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column-reverse;
+}
+h2{
+    margin: 0px;
+    font-family: "PT sans", sans-serif;
+    font-size: 48px;
+    color: #C5F5FF;
 }
