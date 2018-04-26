@@ -26,3 +26,6 @@ li {
     width: 100%;
     background-color: blueviolet;
 }
+.arrows {
+    max-width: 40px;
+}
