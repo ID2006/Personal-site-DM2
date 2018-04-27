@@ -19,11 +19,34 @@ body {
     max-height: 150px;
     margin: 0px;
 }
-li {
-    list-style: none;
+#links{
     margin: 0px;
     padding: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+li {
+    list-style: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    padding: 0px;
     font-family: "PT sans";
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: 20px;
+}
+h3 {
+    list-style: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    padding: 0px;
+    font-family: "PT sans";
+    font-weight: 600;
     font-size: 48px;
 }
 #pagehead {
@@ -46,12 +69,15 @@ h1 {
     position: relative;
     left: 300px;
     margin-left: 10px;
+    width: auto;
 }
 p {
     font-family: "PT sans caption";
     font-size: 18px;
-    width: 80%;
     height: auto;
+}
+.bodytext {
+    width: 100%;
 }
 #textimg1 {
     max-width: 350px;
@@ -74,4 +100,5 @@ h2{
 }
 ul {
     margin: 0px;
+    padding: 0px;
 }
