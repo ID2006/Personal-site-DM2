@@ -13,14 +13,18 @@ body {
     width: 300px;
     background-color: white;
     box-shadow: 4px 0px 10px black;
+    margin: 0px;
 }
 #samlogo {
     max-height: 150px;
+    margin: 0px;
 }
 li {
     list-style: none;
     margin: 0px;
     padding: 0px;
+    font-family: "PT sans";
+    font-size: 48px;
 }
 #pagehead {
     height: 340px;
@@ -36,6 +40,7 @@ h1 {
     margin: 0px;
     font-family: "PT sans", sans-serif;
     font-size: 72px;
+    color: white;
 }
 #content {
     position: relative;
@@ -56,9 +61,17 @@ p {
     flex-wrap: wrap;
     flex-direction: column-reverse;
 }
+#sec2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
 h2{
     margin: 0px;
     font-family: "PT sans", sans-serif;
     font-size: 48px;
     color: #C5F5FF;
+}
+ul {
+    margin: 0px;
 }
