@@ -10,7 +10,7 @@ body {
     align-content: center;
     flex-direction: column;
     height: 100vh;
-    width: 300px;
+    width: 330px;
     background-color: white;
     box-shadow: 4px 0px 10px black;
     margin: 0px;
@@ -36,7 +36,7 @@ li {
     font-family: "PT sans";
     font-weight: 600;
     font-size: 48px;
-    letter-spacing: 20px;
+    letter-spacing: 2px;
 }
 h3 {
     list-style: none;
@@ -48,13 +48,15 @@ h3 {
     font-family: "PT sans";
     font-weight: 600;
     font-size: 48px;
+    letter-spacing: 30px;
+    margin: 0px;
 }
 #pagehead {
     height: 340px;
     width: 100%;
-    background-color: blueviolet;
+    background-color: none;
     position: relative;
-    left: 300px;
+    left: 330px;
 }
 .arrows {
     max-width: 40px;
@@ -67,7 +69,7 @@ h1 {
 }
 #content {
     position: relative;
-    left: 300px;
+    left: 330px;
     margin-left: 10px;
     width: auto;
 }
@@ -101,4 +103,17 @@ h2{
 ul {
     margin: 0px;
     padding: 0px;
+}
+#navbar {
+    background-color: white;
+    height: 100px;
+    width: auto;
+    z-index: 1;
+}
+#headimg {
+    z-index: 2;
+
+}
+a {
+    text-decoration: none;
 }
