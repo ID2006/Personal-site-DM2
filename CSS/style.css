@@ -1,4 +1,6 @@
 body {
+    display: flex;
+    flex-direction: row;
     background-color: #84C8CC;
     margin: 0px;
     overflow-x: hidden;
@@ -6,7 +8,6 @@ body {
 #sidemenu {
     display: flex;
     align-self: flex-start;
-    position: fixed;
     align-content: center;
     flex-direction: column;
     height: 100vh;
@@ -55,8 +56,6 @@ h3 {
     height: 340px;
     width: 100%;
     background-color: none;
-    position: relative;
-    left: 330px;
 }
 .arrows {
     max-width: 40px;
@@ -68,8 +67,6 @@ h1 {
     color: white;
 }
 #content {
-    position: relative;
-    left: 330px;
     margin-left: 10px;
     width: auto;
 }
@@ -112,7 +109,6 @@ ul {
 }
 #headimg {
     z-index: 2;
-
 }
 a {
     text-decoration: none;
