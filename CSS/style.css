@@ -72,6 +72,7 @@ h3 {
 #pagehead {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     height: 340px;
     width: 100%;
     background-color: none;
@@ -111,6 +112,11 @@ p {
     flex-wrap: wrap;
     flex-direction: column-reverse;
 }
+#sec3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 h2{
     margin: 0px;
     font-family: "PT sans", sans-serif;
@@ -126,13 +132,18 @@ ul {
     height: 100px;
     width: auto;
     z-index: 2;
-    position: relative;
-    top: -65px;
 }
 #headimg {
     z-index: 4;
-    position: relative;
+
 }
 a {
     text-decoration: none;
+}
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+.displayimg {
+    max-width: 100%;
 }
