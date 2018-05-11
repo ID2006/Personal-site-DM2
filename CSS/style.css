@@ -34,8 +34,9 @@ body {
     overflow-x: hidden;
 }
 #samlogo {
-    max-height: 150px;
+    max-width: 480px;
     margin: 0px;
+    padding: 0px;
 }
 #links{
     margin: 0px;
@@ -89,6 +90,7 @@ h1 {
 #content {
     margin-left: 10px;
     width: auto;
+    margin-right: 10px;
 }
 p {
     font-family: "PT sans caption";
@@ -135,10 +137,11 @@ ul {
 }
 #headimg {
     z-index: 4;
-
+    height: 90%;
 }
 a {
     text-decoration: none;
+    color: black;
 }
 #gallery {
     display: flex;
@@ -146,4 +149,11 @@ a {
 }
 .displayimg {
     max-width: 100%;
+    margin: 10px;
+}
+#movetothecenter {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    z-index: 5;
 }
