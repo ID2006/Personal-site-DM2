@@ -58,7 +58,7 @@ li {
     letter-spacing: 2px;
 }
 h3 {
-    list-style: none;
+    -webkit-transition: letter-spacing 2s;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 26px;
@@ -67,8 +67,12 @@ h3 {
     font-family: "PT sans";
     font-weight: 600;
     font-size: 48px;
-    letter-spacing: 30px;
+    letter-spacing: inherit;
     margin: 0px;
+}
+h3:hover {
+    -webkit-transition: letter-spacing 2s;
+    letter-spacing: 30px;
 }
 #pagehead {
     display: flex;
