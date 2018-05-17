@@ -45,12 +45,21 @@ body {
     align-items: center;
     flex-direction: column;
 }
+.pagelinks {
+    display: flex;
+    width: 330px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.pagelinks:hover {
+    -webkit-transition: background-color 1.5s;
+    background-color: #c5f5ff;
+}
 li {
     list-style: none;
     margin-left: 0px;
     margin-right: 0px;
-    margin-top: 26px;
-    margin-bottom: 26px;
     padding: 0px;
     font-family: "PT sans";
     font-weight: 600;
@@ -135,7 +144,7 @@ ul {
 }
 #navbar {
     background-color: white;
-    height: 100px;
+    height: 120px;
     width: auto;
     z-index: 2;
 }
