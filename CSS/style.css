@@ -148,6 +148,30 @@ ul {
     width: auto;
     z-index: 2;
 }
+#navbar2 {
+    background-color: white;
+    height: 125px;
+    width: auto;
+    z-index: 2;
+    position: relative;
+    top: 100px;
+}
+#navbar3 {
+    background-color: white;
+    height: 125px;
+    width: auto;
+    z-index: 2;
+    position: relative;
+    top: 200px;
+}
+#navbar4 {
+    background-color: white;
+    height: 125px;
+    width: auto;
+    z-index: 2;
+    position: relative;
+    top: 300px;
+}
 #headimg {
     z-index: 4;
     height: 90%;
