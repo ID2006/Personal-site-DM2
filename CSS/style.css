@@ -214,6 +214,7 @@ a {
     z-index: 5;
 }
 
+/* Marker for media query Marker for media query Marker for media query Marker for media query */
 
 @media only screen and (max-width: 991px) {
 body {
@@ -237,10 +238,12 @@ body {
 }
 #spacer {
     visibility: collapse;
+    height: 0px;
 }
 #spacingtext {
     overflow-x: hidden;
     visibility: collapse;
+    height: 0px;
 }
 #samlogo {
     justify-content: center;
@@ -294,12 +297,8 @@ h3:hover {
     letter-spacing: 30px;
 }
 #pagehead {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    height: 334px;
-    width: 100%;
-    background-color: none;
+    visibility: collapse;
+    height: 0px;
 }
 .arrows {
     max-width: 40px;
@@ -314,6 +313,8 @@ h1 {
     color: white;
 }
 #content {
+    position: inherit;
+    top: -1900px;
     margin-left: 10px;
     width: auto;
     margin-right: 10px;
