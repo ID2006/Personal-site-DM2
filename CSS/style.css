@@ -61,7 +61,7 @@ li {
     margin-left: 0px;
     margin-right: 0px;
     padding: 0px;
-    font-family: "PT sans";
+    font-family: 'PT Sans', sans-serif;
     font-weight: 600;
     font-size: 48px;
     letter-spacing: 2px;
@@ -73,7 +73,7 @@ h3 {
     margin-top: 26px;
     margin-bottom: 26px;
     padding: 0px;
-    font-family: "PT sans";
+    font-family: 'PT Sans', sans-serif;
     font-weight: 600;
     font-size: 48px;
     letter-spacing: inherit;
@@ -99,7 +99,7 @@ h3:hover {
 }
 h1 {
     margin: 0px;
-    font-family: "PT sans", sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-size: 72px;
     color: white;
 }
@@ -109,7 +109,7 @@ h1 {
     margin-right: 10px;
 }
 p {
-    font-family: "PT sans caption";
+    font-family: 'PT Sans Caption', sans-serif;
     font-size: 18px;
     height: auto;
     padding-right: 10px;
@@ -137,7 +137,7 @@ p {
 }
 h2{
     margin: 0px;
-    font-family: "PT sans", sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-size: 48px;
     color: #C5F5FF;
 }
@@ -229,7 +229,7 @@ body {
     align-self: flex-start;
     align-content: center;
     flex-direction: column;
-    height: auto;
+    height: 400px;
     width: 100vw;
     background-color: white;
     margin: 0px;
@@ -240,6 +240,7 @@ body {
 }
 #spacingtext {
     overflow-x: hidden;
+    visibility: collapse;
 }
 #samlogo {
     justify-content: center;
@@ -270,7 +271,7 @@ li {
     margin-left: 0px;
     margin-right: 0px;
     padding: 0px;
-    font-family: "PT sans";
+    font-family: 'PT Sans', sans-serif;
     font-weight: 600;
     font-size: 48px;
     letter-spacing: 2px;
@@ -282,7 +283,7 @@ h3 {
     margin-top: 26px;
     margin-bottom: 26px;
     padding: 0px;
-    font-family: "PT sans";
+    font-family: 'PT Sans', sans-serif;
     font-weight: 600;
     font-size: 48px;
     letter-spacing: inherit;
@@ -308,7 +309,7 @@ h3:hover {
 }
 h1 {
     margin: 0px;
-    font-family: "PT sans", sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-size: 72px;
     color: white;
 }
@@ -318,7 +319,7 @@ h1 {
     margin-right: 10px;
 }
 p {
-    font-family: "PT sans caption";
+    font-family: 'PT Sans Caption', sans-serif;
     font-size: 18px;
     height: auto;
     padding-right: 10px;
@@ -346,7 +347,7 @@ p {
 }
 h2{
     margin: 0px;
-    font-family: "PT sans", sans-serif;
+    font-family: 'PT Sans Caption', sans-serif;
     font-size: 48px;
     color: #C5F5FF;
 }
