@@ -11,7 +11,7 @@ body {
     align-content: center;
     flex-direction: column;
     min-height: 100vh;
-    width: 330px;
+    width: 350px;
     background-color: white;
     box-shadow: 4px 0px 10px black;
     margin: 0px;
@@ -25,7 +25,7 @@ body {
     align-content: center;
     flex-direction: column;
     min-height: 100vh;
-    width: 330px;
+    width: 350px;
     background-color: white;
     margin: 0px;
     z-index: 0;
@@ -118,7 +118,8 @@ p {
     width: 100%;
 }
 #textimg1 {
-    max-width: 350px;
+    max-width: 400px;
+    margin: 10px;
 }
 #sec1 {
     display: flex;
@@ -202,9 +203,12 @@ a {
 #gallery {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
 }
 .displayimg {
-    max-width: 100%;
+    max-width: 300px;;
     margin: 10px;
 }
 #movetothecenter {
@@ -313,8 +317,8 @@ h1 {
     color: white;
 }
 #content {
-    position: inherit;
-    top: -1900px;
+    position: relative;
+    top: -940px;
     margin-left: 10px;
     width: auto;
     margin-right: 10px;
